@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Champions - League of Legends</title>
+  </head>
+  <body class="container col">
+    <div class="container col" id="head">
+      <h2>choose your</h2>
+      <h1>champion</h1>
+      <p id="intro">
+        With more than 140 champions, you'll find the perfect match for your
+        playstyle. Master one, or master them all.
+      </p>
+    </div>
+    <div class="container" id="nav-bar">
+      <input type="text" class="search" id="search-box" placeholder="SEARCH" />
+      <div id="dropdown" class="hidden">
+        <input
+          type="button"
+          class="hidden"
+          id="caution"
+          value="No champions found!"
+          disabled
+        />
+      </div>
+      <div>
+        <input type="button" class="role-btn" id="All" value="ALL" />
+        <input type="button" class="role-btn" id="Assassins" value="ASSASSIN" />
+        <input type="button" class="role-btn" id="Fighters" value="FIGHTER" />
+        <input type="button" class="role-btn" id="Mages" value="MAGE" />
+        <input type="button" class="role-btn" id="Marksmen" value="MARKSMAN" />
+        <input type="button" class="role-btn" id="Supports" value="SUPPORT" />
+        <input type="button" class="role-btn" id="Tanks" value="TANK" />
+      </div>
+      <div id="difficulty"></div>
+    </div>
+    <div id="results"></div>
+  </body>
+  <script src="home.js"></script>
+</html>

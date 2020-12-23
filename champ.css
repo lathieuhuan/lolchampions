@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Wiki-background/revision/latest?cb=20201016192327");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+}
+main {
+  background-color: #000913;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  width: 1000px;
+  margin: 50px 0;
+  border-radius: 20px;
+}
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+.container {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+#intro {
+  margin: 30px 10px 10px;
+  background-size: cover;
+  height: 600px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  text-shadow: -1px -1px 0px #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-style: italic;
+}
+#intro h1 {
+  font-size: 100px;
+}
+#intro h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#info {
+  line-height: 1.8;
+  margin: 10px 10px 30px;
+}
+#champ-desc {
+  width: 60%;
+  padding: 20px 20px 0;
+}
+#lore {
+  text-indent: 30px;
+}
+#abilities > h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #f0ce38;
+}
+iframe {
+  width: 100%;
+  height: 370px;
+  margin: 20px 0;
+}
+.abilities-info {
+  margin: 20px 0;
+  padding: 5px 15px;
+  border: solid #c5986b 1px;
+}
+#abilities > h1::first-letter {
+  font-size: 80px;
+}
+.hidden {
+  display: none;
+}
+#abilities-bar {
+  justify-content: space-evenly;
+}
+.icon-btn {
+  border: none;
+  width: 64px;
+  height: 64px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  outline: none;
+}
+.icon-btn:focus {
+  outline: solid #d0a85c 1px;
+  outline-offset: 5px;
+}
+.abilities-info > h3 {
+  color: #f0ce38;
+}
+.key {
+  text-transform: capitalize;
+  font-style: italic;
+  color: #b4b4b4;
+}
+.ability-desc {
+  margin-top: 10px;
+  text-indent: 20px;
+}
+#champ-info {
+  width: 40%;
+  border: solid #c9aa8b 1px;
+  padding: 10px 30px;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2;
+}
+section p:nth-child(odd) {
+  width: 55%;
+}
+section p:nth-child(even) {
+  width: 45%;
+  color: #c9aa8b;
+}
+#champ-info > h3 {
+  margin-top: 10px;
+  font-size: 26px;
+  color: #f0ce38;
+}
